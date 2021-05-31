@@ -7,22 +7,26 @@
  var mail = prompt('Inserisci la tua mail');
  var nomi = ['luca@gmail.com', 'matteo@gmail.com', 'simone@gmail.com', 'chiara@gmail.com' ];
  for (var i = 0; i < nomi.length; i++){
-    
+    var risultato = "corretto, accesso disponibile"
+    var negazione = " Mi dispiace, non sei in lista"
 
      if( mail == 'luca@gmail.com' ){
-      console.log('corretto, accesso disponibile');
+        document.getElementById("email").innerHTML =risultato;
         
      } else if( mail == 'matteo@gmail.com'){
-         console.log('corretto, accesso disponibile')
+        document.getElementById("email").innerHTML =risultato;
      }else if( mail == 'simone@gmail.com'){
-        console.log('corretto, accesso disponibile');
+        document.getElementById("email").innerHTML =risultato;
 
      }else if( mail == 'chiara@gmail.com'){
-         console.log('corretto, accesso disponibile')
+        document.getElementById("email").innerHTML =risultato;
      } else{
-        console.log('Mi dispiace, non sei in lista');
+        document.getElementById("email").innerHTML =negazione;
     }
 }
+
+
+   
 
 
 
