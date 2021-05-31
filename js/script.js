@@ -10,15 +10,26 @@
 // scrivi anche la posizione "umana" (partendo da 1)
 //  della lista in cui il nuovo utente si trova
 
-var mail = prompt('Inserisci la tua mail');
-var nomi = ['luca@gmail.com', 'matteo@gmail.com', 'simone@gmail.com', 'chiara@gmail.com' ];
-for (var i = 0; i < nomi.length; i++){
+ var mail = prompt('Inserisci la tua mail');
+ var nomi = ['luca@gmail.com', 'matteo@gmail.com', 'simone@gmail.com', 'chiara@gmail.com' ];
+ for (var i = 0; i < nomi.length; i++){
     
 
-    if( mail == 'luca@gmail.com' ){
-        console.log('nome corretto')
-    } else{
-        console.log('nome errato')
+     if( mail == 'luca@gmail.com' ){
+      console.log('corretto, accesso disponibile');
+        
+     } else if( mail == 'matteo@gmail.com'){
+         console.log('corretto, accesso disponibile')
+     }else if( mail == 'simone@gmail.com'){
+        console.log('corretto, accesso disponibile');
+
+     }else if( mail == 'chiara@gmail.com'){
+         console.log('corretto, accesso disponibile')
+     } else{
+        console.log('Mi dispiace, non sei in lista');
     }
-    
 }
+
+
+
+
