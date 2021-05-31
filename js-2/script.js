@@ -12,7 +12,7 @@ var cognome = prompt('inserisci il tuo cognome');
 
 var lista = ["Bianchi", "Neri", "Rossi", "Verdi", "Gialli"];
 lista.push(cognome);
-lista.sort();
+
 
 document.getElementById("colori").innerHTML = lista;
-console.log('cognome');
+lista.sort();
