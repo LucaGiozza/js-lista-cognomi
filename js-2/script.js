@@ -20,11 +20,11 @@ lista.sort();
 
 // possibile soluzione
 
-// var cognomi = ["Bianchi", "Neri", "Rossi", "Verdi", "Gialli"];
+//  var cognomi = ["Bianchi", "Neri", "Rossi", "Verdi", "Gialli"];
 
-// var cognomeUtente = prompt('inserisci il cognome');
+//  var cognomeUtente = prompt('inserisci il cognome');
 
-// cognomi.push(cognomeUtente);
+//  cognomi.push(cognomeUtente);
 
 
 // cognomi.sort();
@@ -36,3 +36,10 @@ lista.sort();
 //         document.getElementById('posizione-elemento').innerHTML = i + 1;
 //      }
 // }
+
+// seconda soluzione nel caso in cui mi interessa solo la posizione
+
+var i = 0;
+while(cognomeUtente != cognomi[i]){
+    i++;
+}
