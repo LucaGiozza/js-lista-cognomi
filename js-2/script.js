@@ -45,4 +45,4 @@ lista.sort();
 // }
 
 // come mettere in ordine anche con lettere non tutte maiuscole:
-// cognomeUtente = cognomeUtente.charAt(0).toUppercase() + cognomeUtente.substring(1).toLowerCase();
+// cognomeUtente = cognomeUtente.charAt(0).toUpperCase() + cognomeUtente.substring(1).toLowerCase();
