@@ -16,3 +16,23 @@ lista.push(cognome);
 
 document.getElementById("colori").innerHTML = lista;
 lista.sort();
+
+
+// possibile soluzione
+
+// var cognomi = ["Bianchi", "Neri", "Rossi", "Verdi", "Gialli"];
+
+// var cognomeUtente = prompt('inserisci il cognome');
+
+// cognomi.push(cognomeUtente);
+
+
+// cognomi.sort();
+// console.log(cognomi);
+
+// for(var i = 0; i < cognomi.length; i++){
+//     document.getElementById('colori').innerHTML += cognomi[i] + '';
+//      if ( cognomi[i] == cognomeUtente){
+//         document.getElementById('posizione-elemento').innerHTML = i + 1;
+//      }
+// }
