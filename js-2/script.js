@@ -39,7 +39,10 @@ lista.sort();
 
 // seconda soluzione nel caso in cui mi interessa solo la posizione
 
-var i = 0;
-while(cognomeUtente != cognomi[i]){
-    i++;
-}
+// var i = 0;
+// while(cognomeUtente != cognomi[i]){
+//     i++;
+// }
+
+// come mettere in ordine anche con lettere non tutte maiuscole:
+// cognomeUtente = cognomeUtente.charAt(0).toUppercase() + cognomeUtente.substring(1).toLowerCase();
