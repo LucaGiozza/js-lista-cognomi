@@ -10,7 +10,7 @@
     var risultato = "corretto, accesso disponibile"
     var negazione = " Mi dispiace, non sei in lista"
  
-     if( mail == 'luca@gmail.com' ){
+     if( mail == nomi[i] ){
         document.getElementById("email").innerHTML =risultato;
         
       } else if( mail == 'matteo@gmail.com'){
@@ -28,8 +28,39 @@
    }
    // ho provato a mettere nome[i] al posto delle mail nell if ma non mi funziona
 
+  //  correzione possibile:
+
+
+  //   var trovato = false
    
+  //  for (var i = 0; i < nomi.length; i++){
+  //    if(mail == nomi[i]){
+  //      trovato = true;
+  //    }
+  //  }
+
+  //  if(trovato){
+  //    console.log('email trovata')
+  //  }else{
+  //    console.log('email non trovata')
+  //  }
 
 
+  // seconda soluzione possibile
+
+// var trovato = false;
+// var i = 0
+
+// while(i < nomi.length && trovsto == false){
+//   if(mail == nomi[i]){
+//     trovato = true ;
+//   }
+//   i++
+// }
 
 
+// if(trovato){
+//       console.log('email trovata');
+//     }else{
+//       console.log('email non trovata');
+//     }
